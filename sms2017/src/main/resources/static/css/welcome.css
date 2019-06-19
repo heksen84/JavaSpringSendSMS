@@ -1,0 +1,94 @@
+body
+{
+	background: rgb(80,80,130);
+}
+.k-window-titlebar
+{
+	background: rgb(140,190,0);
+	color:white;	
+}
+#menu
+{
+	margin:auto;
+	float:center;
+	width:628px;
+	border:none;
+	font-size:20px;
+	border-radius:5px;
+	display:none;
+}
+#menu ul
+{
+	border:none;
+}
+#menu li
+{
+	border:none;
+}
+#new_message_window
+{
+	display:none;
+}
+#editor
+{
+	font-size:22px;
+	width:100%;
+	border:1px solid grey;
+	height:240px;
+}
+#calendar
+{
+	float:right;
+	margin-right: 15px;
+	margin-top: -40px;
+}
+#info_textarea
+{
+	margin-top:-20px;
+	width:100%;
+	height:300px;
+	border:none;
+	border: 1px solid grey;
+	font-size:22px;
+}
+#batchs_textarea
+{	
+	width: 100%;
+	height: 250px;
+	border: none;
+	border: 1px solid grey;
+	font-size: 16px;
+	margin-bottom: 5px;
+	background: rgb(100,100,100);
+	color: white;
+}
+#batch_info_textarea
+{	
+	width: 100%;
+	height: 77%;
+	border: none;
+	border: 1px solid grey;
+	font-size: 16px;
+	margin-bottom: 5px;
+	background: rgb(100,100,100);
+	color: white;
+}
+.button
+{
+	font-size:20px;
+	margin: 10px;
+	padding: 10px;
+	border-radius:5px;	
+}
+.button:hover
+{
+	text-decoration:underline;	
+}
+.input
+{
+	text-align:center;
+	border: 1px solid rgb(140,190,0);
+	border-radius:3px;
+	font-size:28px;	
+	color:rgb(100,100,100);	
+}

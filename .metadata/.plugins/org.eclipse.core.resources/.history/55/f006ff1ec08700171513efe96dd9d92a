@@ -1,0 +1,25 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta charset=UTF-8">
+<title>SMS manager</title>
+<script src = "js/lib/jquery.min.js"></script>
+<script src = "js/lib/kendo.window.min.js"></script>
+<link href = "pages/css/lib/bootstrap.min.css"	     	rel = "stylesheet"/>
+</head>
+<script>
+$( document ).ready(function() {
+	 $("#window").kendoWindow();
+});
+</script>
+
+<body>    
+    <div class="k-widget k-window">
+        <div class="k-window-titlebar">title</div>
+        <div id="window" class="k-window-content">
+            Content of the Window
+        </div>
+    </div>
+</body>
+</html>
